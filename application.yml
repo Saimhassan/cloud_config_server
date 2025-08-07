@@ -11,11 +11,11 @@ eureka:
 #    instance-id: ${spring.application.name}:${server.port}
 
 microservice:
-  payment-service:
+  payment:
     endpoints:
       endpoint:
         uri: http://PAYMENT-SERVICE/payment/savePayment
-  order-service:
+  order:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
